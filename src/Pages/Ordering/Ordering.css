@@ -1,0 +1,100 @@
+.ordering-page {
+    background: #EAEAEA;
+    padding: 20px 170px;
+}
+
+.form-left{
+    background-color: #fff;
+    width: 560px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.delivery-heading {
+    font-family: 'Montserrat';;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 21px;
+}
+
+.delivery-desc {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.delivery-select, .order-label {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: #D6D6D6;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.order-label {
+    display: flex;
+    align-items: center;
+}
+
+.small {
+    width: 235px;
+}
+
+.order-input {
+   border: none;
+   height: 25px;
+   width: 100%;
+   background-color: transparent;
+}
+.order-input:focus {
+    outline: none;
+}
+
+
+/* RIGHT */
+
+.order-cost {
+    background-color: white;
+    border-radius: 25px;
+    width: 500px;
+    padding: 17px;
+}
+
+.delivery-cost, .total-cost {
+    padding-left: 22px;
+}
+
+.order-payment, .order-number {
+    width: 500px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.payment-select {
+    width: 100%;
+    border: transparent;
+    font-size: 23px;
+}
+
+.orderFormbtn {
+    width: 500px;
+}
+
+
+.ordered-page {
+    background: #EAEAEA;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+.ordered {
+    background-color: white;
+    padding: 30px 60px;
+    border-radius: 30px;
+    height: 100px;
+}

@@ -1,0 +1,350 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "name": "Vivo Y33s",
+      "memory": 64,
+      "ram": 4,
+      "operationSystem": "Android 11",
+      "processor": "MediaTek Helio G80",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE",
+      "battery": 5000,
+      "camera": 50,
+      "display": "IPS LCD",
+      "raiting": 4.3,
+      "number": 1,
+      "selectBool": false,
+      "price": 2770990,
+      "imgLinks": [
+        "https://сота.укр/image/cache/data/Vivo/vivo-y33s-blue-01-700x700.webp",
+        "https://all-ok.com.ua/image/cache/catalog/products/2021/12/160210/vivo-y33s-8-128gb-mirror-black-700x700-product_popup.jpg",
+        "https://ru.vivo.com/upload/imgresize/31214/442x455/20550.jpg",
+        "https://ru.vivo.com/upload/imgresize/15147/442x455/12530.jpg",
+        "https://items.s1.citilink.ru/1680445_v03_b.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-ALwDZN6CiERtICVheDYexpqHu-6EAJhSw&usqp=CAU"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy A72",
+      "memory": 128,
+      "ram": 8,
+      "operationSystem": "Android 11",
+      "processor": "Qualcomm SM7125 Snapdragon 720G",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE, 5G",
+      "battery": 5000,
+      "camera": 32,
+      "display": "IPS LCD",
+      "raiting": 4.7,
+      "number": 1,
+      "selectBool": false,
+      "price": 4380200,
+      "imgLinks": [
+        "https://www.creditasia.uz/upload/iblock/952/smartfon-samsung-galaxy-a72-sm-a725f-ds-128gb-white.jpeg",
+        "https://m.openshop.uz/public/uploads/products/photos/202104/od93iXqJDzQV3XaEizjgsGos4OsUpxREQZcEYtz4.jpg",
+        "https://images.samsung.com/is/image/samsung/p6pim/pk/galaxy-a52/feature/pk-feature---397300315?$FB_TYPE_A_MO_JPG$",
+        "https://img.youtube.com/vi/v1wHCpoLcdU/sddefault.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30--8YOAB8a0H_l9mkGRUbjt6lSvGnOTCrw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AqNja1GbwfeYAnlmMFKCSgVlY8VjEvfCYA&usqp=CAU"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi 9C",
+      "memory": 64,
+      "ram": 4,
+      "operationSystem": "Android 11",
+      "processor": "MediaTek MT6765G Helio G35",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE",
+      "battery": 4000,
+      "camera": 20,
+      "display": "IPS LTD",
+      "raiting": 4,
+      "number": 1,
+      "selectBool": false,
+      "price": 2030560,
+      "imgLinks": [
+        "https://www.creditasia.uz/upload/iblock/cc1/gmqij4uhp54f5yg6yw46erxxp65bbde6/smartfon-xiaomi-redmi-9c-3-64gb-sunrise-orange-1.jpg",
+        "https://www.creditasia.uz/upload/iblock/b11/smartfon-xiaomi-redmi-9c-3-64gb-midnight-gray-1.jpg",
+        "https://unite4buy.ru/media/images/2020/08/11/redmi-9c-5_8mfvqCv.jpg",
+        "https://cdn-files.kimovil.com/default/0004/87/thumb_386057_default_big.jpeg",
+        "https://static.nix.ru/images/Xiaomi-Redmi-9C-NFC-Twilight-Blue-4755886919.jpg?good_id=475588&width=500&height=500&view_id=6919"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ZTE nubia Red Magic",
+      "memory": 128,
+      "ram": 8,
+      "operationSystem": "Android 11",
+      "processor": "Qualcomm SM8350 Snapdragon 888 5G",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE, 5G",
+      "battery": 6000,
+      "camera": 40,
+      "display": "IPS LCD",
+      "raiting": 4.8,
+      "number": 1,
+      "selectBool": false,
+      "price": 8050700,
+      "imgLinks": [
+        "https://www.notebookcheck-ru.com/uploads/tx_nbc2/ZTENubiaRedMagic6.jpg",
+        "https://olcha.uz/image/360x360/products/3xhEYhsXphgUqgeQaU9xffQHz141EdN2zqDpbaBfPuQCIvwuoN99Beiuu2NS.jpeg",
+        "https://avatars.mds.yandex.net/get-mpic/4080064/img_id8960499544718097570.jpeg/orig",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBtjwsUHI-lrpOY_4rrmDfDUf8H47RoGttg&usqp=CAU",
+        "https://fdn2.gsmarena.com/vv/pics/zte/zte-nubia-red-magic-5g-4.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS00UA8RbIwRblV50POl2MmUfNPnD3GtmKx4A&usqp=CAU"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Asus ROG Phone 5s",
+      "memory": 256,
+      "ram": 12,
+      "operationSystem": "Android 11",
+      "processor": "Qualcomm SM8350 Snapdragon 888+ 5G",
+      "processorYadro": 12,
+      "network": "GSM, 3G, 4G LTE,5G",
+      "battery": 6000,
+      "camera": 64,
+      "display": "IPS LPD",
+      "raiting": 4.9,
+      "number": 1,
+      "selectBool": false,
+      "price": 10150860,
+      "imgLinks": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJ1ItLmTQHW1XIxr4Gy8FNCjp4QGujL8JsA&usqp=CAU",
+        "https://avatars.mds.yandex.net/get-mpic/5209134/img_id5030801770002085901.png/orig",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPl8Z__NBxk1czjDjzPfmOiS5fW9-ntmeWBw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7HcaXnui08dmNuZIanUvpWGrOSYtCY0FO4Q&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyz2T9aDrl0PxxCue7BHNNffv-qtdg0s2Pw&usqp=CAU",
+        "https://4pmtech.com/wp-content/uploads/2022/02/rog-phone-5s.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Xiaomi Poco F3",
+      "memory": 128,
+      "ram": 8,
+      "operationSystem": "Android 11",
+      "processor": "Qualcomm SM8250-AC Snapdragon 870 5G",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE,5G",
+      "battery": 5000,
+      "camera": 40,
+      "display": "IPS LCD",
+      "raiting": 4.4,
+      "number": 1,
+      "selectBool": false,
+      "price": 4035000,
+      "imgLinks": [
+        "https://m.openshop.uz/public/uploads/products/photos/202107/1F6bzUpHfl32bZ9Xcvv5ioxLtB3ub6uRIhPtfNP4.jpg",
+        "https://cdn-files.kimovil.com/default/0005/99/thumb_498827_default_big.jpeg",
+        "https://phonesdata.com/files/models/Xiaomi-Poco-F3-350.jpg",
+        "https://mediapark.uz/upload/file/mp/products/images/jgMNjXaNVdHXdCl4Tde3Q9-9MwKs2x-8.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlLGNX_D04ApHtoc0SFEFwm1a1voUqUwJafw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9Fu9QAT0UvPjb2autBHHkLy9Ph6YUwYYzQ&usqp=CAU"
+      ]
+    }
+  ],
+  "notebooks": [
+    {
+      "id": 7,
+      "name": "Asus VivoBook 14",
+      "memory": 512,
+      "ram": 8,
+      "processorChastota": 2.1,
+      "processor": "AMD Ryzen 5 3500U",
+      "processorYadro": 8,
+      "display": "IPS LCD",
+      "raiting": 4.5,
+      "number": 1,
+      "selectBool": false,
+      "price": 8035000,
+      "imgLinks": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Ytw65J3L0hrVI-WeHFhIRCh9A2UrK1KnVg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_9GgSQLRGdTGlua9X6nMzs1Qi9r_YfEyxQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmj3CBjkzTglGdg-lc5zwEF3xoHe4EX0wjFA&usqp=CAU"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lenovo Legion 5",
+      "memory": 1024,
+      "ram": 8,
+      "processorChastota": 2.5,
+      "processor": "AMD Ryzen 5 5600H",
+      "processorYadro": 8,
+      "display": "IPS LTD",
+      "raiting": 4.7,
+      "number": 1,
+      "selectBool": false,
+      "price": 11065100,
+      "imgLinks": [
+        "https://www.notebookcheck-ru.com/fileadmin/Notebooks/Lenovo/Legion_5_15IMH0/4zu3_Lenovo_Legion_5_15IMH05H.jpg",
+        "https://www.lenovo.com/medias/lenovo-laptop-legion-5-17-amd-subseries-hero.png?context=bWFzdGVyfHJvb3R8MjE0MzU5fGltYWdlL3BuZ3xoYTYvaGVlLzEwOTY0NTU4MjgyNzgyLnBuZ3w5NzhiZjlmODQzZmFiYzY4ZGIyYTc4Njk5NTkxNGNmMDViY2ZjZjNjZmFlOGExZmUyOWM0MGEzYTVkYWE0ZjBk",
+        "https://i.eldorado.ua/500x240/goods_images/1039096/7622609-1641906851.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "HP 15-DY2095WM",
+      "memory": 512,
+      "ram": 12,
+      "processorChastota": 2.4,
+      "processor": "Intel® Core™ i5-1135G7",
+      "processorYadro": 8,
+      "display": "IPS LCD",
+      "raiting": 4.7,
+      "number": 1,
+      "selectBool": false,
+      "price": 9067000,
+      "imgLinks": [
+        "https://assets.asaxiy.uz/product/items/desktop/35f7bc95396e4b0d37341caca9ea819e2022013012562956160it3uSjlu7K.jpg",
+        "https://i0.wp.com/rickycell.com/wp-content/uploads/2022/01/1650940550.webp?fit=600%2C600&ssl=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLGltUMIofKm6aMHucSH_3SiNG5eMu2TvAA&usqp=CAU"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "MSI GF63",
+      "memory": 256,
+      "ram": 8,
+      "processorChastota": 2.5,
+      "processor": "Intel Core i5-10500H",
+      "processorYadro": 8,
+      "display": "IPS LCD",
+      "raiting": 4.3,
+      "number": 1,
+      "selectBool": false,
+      "price": 7012400,
+      "imgLinks": [
+        "https://olcha.uz/image/360x360/products/RAq9hqofsCIsipWzBG8IwkPIOscopBf5C3Vo5AgHuHnEhd438uM1U65yGfSb.jpeg",
+        "https://m.media-amazon.com/images/I/51Rf3zw4rIL._AC_SY450_.jpg",
+        "https://cdn.kns.ru/linkpics/msi-gf63-thin-11ud-221ru-0-v1.jpg"
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "id": 11,
+      "name": "Xiaomi Redmi Buds ",
+      "workTime": 28,
+      "chastota": 20000,
+      "bluetooth": 5.2,
+      "raiting": 4.3,
+      "battery": 470,
+      "number": 1,
+      "selectBool": false,
+      "price": 770000,
+      "imgLinks": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSShQxdb8cyWiFr74QwWGgdBigcbZwnPkOW5sNQc-v_ewZDt-mrI5_HbwdcLSHc0nHJ_7k&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZv6GglFMTIo2DM20nhjCNt9eerL7ihVF1GqPBTWYxohDZWILc2ymrkL57iyRSF2ZgEA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dWlh4-7xTEALeAhO5b7V6NSe_QWJtSXf-Bc3dyuikGR95QZPcL4zfFEK7T-wOfG-o74&usqp=CAU"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hoco EW04 ",
+      "workTime": 15,
+      "raiting": 4,
+      "chastota": 19000,
+      "bluetooth": 5,
+      "battery": 350,
+      "number": 1,
+      "selectBool": false,
+      "price": 250000,
+      "imgLinks": [
+        "https://touch.com.ua/upload/ammina.optimizer/jpg-webp/q80/upload/iblock/7d5/7d599d8cac2b03dc26957692aead7b47.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi04KEJZbkD-pdhX42SCBFpVrLx_oDV0GjvNltmtHgOM5353JoHoRYRSrYd66ubBaEC7g&usqp=CAU",
+        "https://images.prom.ua/2619517861_w640_h640_hoco-es46-cool.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Promate Charisma 2",
+      "workTime": 36,
+      "raiting": 4.7,
+      "chastota": 22000,
+      "bluetooth": 5.3,
+      "battery": 750,
+      "number": 1,
+      "selectBool": false,
+      "price": 1200000,
+      "imgLinks": [
+        "https://cdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/assets/1/1/4/9/114999a2b17256996752bdfe9a1cec9b0ac29dbc_S100581802.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPSAA1EG9SctO6-mvtjRirR3rKMzbuQZUKdD22GA7y1NuCInKaQTqDBAFChpQHNemtd3w&usqp=CAU",
+        "https://cdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/assets/9/5/e/9/95e98bec988b18d1f65ef1f5d40ca3a056913d09_Oppo_Enco_W51_1.jpg"
+      ]
+    }
+  ],
+  "korzinka": [
+    {
+      "id": 1,
+      "name": "Vivo Y33s",
+      "memory": 64,
+      "ram": 4,
+      "operationSystem": "Android 11",
+      "processor": "MediaTek Helio G80",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE",
+      "battery": 5000,
+      "camera": 50,
+      "display": "IPS LCD",
+      "raiting": 4.3,
+      "number": 1,
+      "selectBool": true,
+      "price": 2770990,
+      "imgLinks": [
+        "https://сота.укр/image/cache/data/Vivo/vivo-y33s-blue-01-700x700.webp",
+        "https://all-ok.com.ua/image/cache/catalog/products/2021/12/160210/vivo-y33s-8-128gb-mirror-black-700x700-product_popup.jpg",
+        "https://ru.vivo.com/upload/imgresize/31214/442x455/20550.jpg",
+        "https://ru.vivo.com/upload/imgresize/15147/442x455/12530.jpg",
+        "https://items.s1.citilink.ru/1680445_v03_b.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-ALwDZN6CiERtICVheDYexpqHu-6EAJhSw&usqp=CAU"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy A72",
+      "memory": 128,
+      "ram": 8,
+      "operationSystem": "Android 11",
+      "processor": "Qualcomm SM7125 Snapdragon 720G",
+      "processorYadro": 8,
+      "network": "GSM, 3G, 4G LTE, 5G",
+      "battery": 5000,
+      "camera": 32,
+      "display": "IPS LCD",
+      "raiting": 4.7,
+      "number": 1,
+      "selectBool": false,
+      "price": 4380200,
+      "imgLinks": [
+        "https://www.creditasia.uz/upload/iblock/952/smartfon-samsung-galaxy-a72-sm-a725f-ds-128gb-white.jpeg",
+        "https://m.openshop.uz/public/uploads/products/photos/202104/od93iXqJDzQV3XaEizjgsGos4OsUpxREQZcEYtz4.jpg",
+        "https://images.samsung.com/is/image/samsung/p6pim/pk/galaxy-a52/feature/pk-feature---397300315?$FB_TYPE_A_MO_JPG$",
+        "https://img.youtube.com/vi/v1wHCpoLcdU/sddefault.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30--8YOAB8a0H_l9mkGRUbjt6lSvGnOTCrw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AqNja1GbwfeYAnlmMFKCSgVlY8VjEvfCYA&usqp=CAU"
+      ]
+    }
+  ],
+  "selected": [],
+  "ordered": [
+    {
+      "id": 1647368839526,
+      "name": "Vivo Y33s",
+      "piece": 1,
+      "city": "Tashkent",
+      "street": "Yakkabog'",
+      "house": "11",
+      "entrance": "12",
+      "apartment": "40",
+      "telNumber": "912212121212"
+    }
+  ]
+}

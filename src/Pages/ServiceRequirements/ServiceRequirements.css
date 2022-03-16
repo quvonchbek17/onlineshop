@@ -1,0 +1,11 @@
+.service {
+    background: #EAEAEA;
+    padding: 20px 80px;
+}
+
+.termsService {
+    padding: 20px ;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}

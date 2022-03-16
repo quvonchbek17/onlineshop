@@ -1,0 +1,18 @@
+.site-footer {
+    padding: 20px 100px;
+    background: #EAEAEA;
+    padding-bottom: 0;
+}
+
+.footer-body {
+    background-color: white;
+    border-radius: 30px ;
+    padding: 25px 30px;
+}
+
+.service-lang {
+    min-height: 80px;
+}
+.footer-social {
+    width: 200px;
+}

@@ -1,0 +1,46 @@
+.card-section {
+    background: #EAEAEA;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.phone-characteristic {
+    display: flex;
+    flex-direction: column;
+    background: #F9F9F9;
+    border-radius: 30px;
+    min-width: 1000px;
+}
+
+
+.phoneCharacter-top {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.phone-wrapper {
+    padding: 20px 30px;
+}
+
+
+.buybtn, .addkorzinabtn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 250px;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 7px;
+}

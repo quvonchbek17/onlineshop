@@ -1,0 +1,110 @@
+.korzinka-section {
+    background: #EAEAEA;
+    padding: 20px 80px;
+}
+
+
+.korzinaCard {
+    background-color: white;
+    border-radius: 30px;
+    width: 800px;
+    padding: 20px ;
+    margin-bottom: 25px;
+}
+
+.card-name {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: #1C1C27;
+    margin-bottom: 10px !important;
+}
+
+.card-proce {
+    font-family: 'Montserrat';;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.piece {
+    margin: 0;
+    width: 30px;
+    text-align: center;
+}
+
+.minus, .plus {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background: #FFCE7F;
+    padding-bottom: 5px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalMoney {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 10px;
+    text-align: right;
+    color: #1C1C27;
+}
+
+.mapCard {
+    background-color: white;
+    border-radius: 30px;
+    width: 800px;
+    padding: 20px ;
+}
+
+.order {
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+.orderbtn, .empty-link {
+    background-color: black;
+    border-radius: 15px;
+    width: 300px ;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* EMPTY KORZINKA */
+.emptykorzinka {
+    background: #EAEAEA;
+
+}
+.empty-heading {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #101010;
+}
+
+.empty-desc {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+}
+
+.empty-link {
+    width: 520px !important;
+}

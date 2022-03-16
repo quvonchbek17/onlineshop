@@ -1,0 +1,17 @@
+.admin-panel {
+    background: #EAEAEA;
+    padding: 20px 100px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-card {
+    width: 800px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+
+}

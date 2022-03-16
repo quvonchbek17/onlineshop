@@ -1,0 +1,37 @@
+.site-header {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #EAEAEA;
+}
+
+.logo-link {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin-right: 40px;
+}
+
+.selected-btn, .korzinka-btn {
+    background: transparent;
+    border:  transparent;
+    margin:  0 10px;
+    position: relative;
+}
+
+.selected-piece, .korzinka-piece {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background: #FFA542;
+    color: white;
+    top: -7px;
+    right: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
