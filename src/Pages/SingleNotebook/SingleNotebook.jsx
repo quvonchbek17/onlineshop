@@ -18,7 +18,7 @@ function SingleNotebook() {
   const {Ordering, setOrdering} = useContext(OrderingContext)
 
   useEffect(() => {
-    fetch("http://localhost:3001/notebooks")
+    fetch("https://onllineshop.herokuapp.com/notebooks")
       .then((res) => res.json())
       .then((data) => setNotebooks(data));
   }, [notebookId]);
@@ -29,7 +29,7 @@ function SingleNotebook() {
   function addKorzina(e){
     e.preventDefault()
 
-    fetch(`http://localhost:3001/korzinka`, {
+    fetch(`https://onllineshop.herokuapp.com/korzinka`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

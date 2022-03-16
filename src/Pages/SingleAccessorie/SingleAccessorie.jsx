@@ -19,7 +19,7 @@ function SingleAccessories() {
 
 
   useEffect(() => {
-    fetch("http://localhost:3001/accessories")
+    fetch("https://onllineshop.herokuapp.com/accessories")
       .then((res) => res.json())
       .then((data) => setAccessories(data));
   }, [accessorieId]);
@@ -31,7 +31,7 @@ function SingleAccessories() {
     e.preventDefault()
 
 
-    fetch(`http://localhost:3001/korzinka`, {
+    fetch(`https://onllineshop.herokuapp.com/korzinka`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

@@ -10,7 +10,7 @@ function Admin() {
     const [adminPassword, setAdminPassword] = useState('')
 
     useEffect(() => {
-        fetch('http://localhost:3001/ordered').then(res => res.json()).then(data => setAdminData(data))
+        fetch('https://onllineshop.herokuapp.com/ordered').then(res => res.json()).then(data => setAdminData(data))
       }, []);
 
     function hendleSubmit(e) {

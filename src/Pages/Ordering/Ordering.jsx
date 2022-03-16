@@ -22,7 +22,7 @@ const [telNumber, setTelNumber] = useState('')
 
 function hendleSubmit(e){
 
-    fetch(`http://localhost:3001/ordered`, {
+    fetch(`https://onllineshop.herokuapp.com/ordered`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

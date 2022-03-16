@@ -17,13 +17,13 @@ function Header() {
 
     useEffect(() => {
 
-       fetch('http://localhost:3001/korzinka').then(res => res.json()).then(data => setTrash(data))
+       fetch('https://onllineshop.herokuapp.com/korzinka').then(res => res.json()).then(data => setTrash(data))
 
     }, [testNumber]);
 
     useEffect(() => {
 
-      fetch('http://localhost:3001/selected').then(res => res.json()).then(data => setLiked(data))
+      fetch('https://onllineshop.herokuapp.com/selected').then(res => res.json()).then(data => setLiked(data))
 
    }, [testNumber]);
 

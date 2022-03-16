@@ -35,15 +35,15 @@ function Products() {
 
 
   useEffect(() => {
-    fetch('http://localhost:3001/phones').then(res => res.json()).then(data => setPhones(data))
+    fetch('https://onllineshop.herokuapp.com/phones').then(res => res.json()).then(data => setPhones(data))
   }, [selectedIconBool]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/notebooks').then(res => res.json()).then(data => setNotebooks(data))
+    fetch('https://onllineshop.herokuapp.com/notebooks').then(res => res.json()).then(data => setNotebooks(data))
   }, [selectedIconBool]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/accessories').then(res => res.json()).then(data => setAccessories(data))
+    fetch('https://onllineshop.herokuapp.com/accessories').then(res => res.json()).then(data => setAccessories(data))
   }, [selectedIconBool]);
 
 //   PHONE SELECTED
@@ -55,7 +55,7 @@ function Products() {
         let index =  phones.findIndex(item => item.id == id)
         phones[index].selectBool = !phones[index].selectBool
         setSelectedIconBool(phones[index].selectBool)
-        fetch(`http://localhost:3001/phones/${id}`, {
+        fetch(`https://onllineshop.herokuapp.com/phones/${id}`, {
          method: "PUT",
          headers: {
              "Content-Type": "application/json"
@@ -67,7 +67,7 @@ function Products() {
        })
 
        if(phones[index].selectBool){
-        fetch(`http://localhost:3001/selected`, {
+        fetch(`https://onllineshop.herokuapp.com/selected`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -77,7 +77,7 @@ function Products() {
             )
         })
        } else {
-        fetch(`http://localhost:3001/selected/${id}`, {
+        fetch(`https://onllineshop.herokuapp.com/selected/${id}`, {
             method: "Delete"
         })
        }
@@ -94,7 +94,7 @@ function selectButtonNotebook(e) {
       let indexNote =  notebooks.findIndex(item => item.id == id)
       notebooks[indexNote].selectBool = !notebooks[indexNote].selectBool
       setSelectedIconBool(notebooks[indexNote].selectBool)
-      fetch(`http://localhost:3001/notebooks/${id}`, {
+      fetch(`https://onllineshop.herokuapp.com/notebooks/${id}`, {
        method: "PUT",
        headers: {
            "Content-Type": "application/json"
@@ -106,7 +106,7 @@ function selectButtonNotebook(e) {
      })
 
      if(notebooks[indexNote].selectBool){
-      fetch(`http://localhost:3001/selected`, {
+      fetch(`https://onllineshop.herokuapp.com/selected`, {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
@@ -116,7 +116,7 @@ function selectButtonNotebook(e) {
           )
       })
      } else {
-      fetch(`http://localhost:3001/selected/${id}`, {
+      fetch(`https://onllineshop.herokuapp.com/selected/${id}`, {
           method: "Delete"
         })
      }
@@ -132,7 +132,7 @@ function selectButtonAccessorie(e) {
       let indexAcc =  accessories.findIndex(item => item.id == id)
       accessories[indexAcc].selectBool = !accessories[indexAcc].selectBool
       setSelectedIconBool(accessories[indexAcc].selectBool)
-      fetch(`http://localhost:3001/accessories/${id}`, {
+      fetch(`https://onllineshop.herokuapp.com/accessories/${id}`, {
        method: "PUT",
        headers: {
            "Content-Type": "application/json"
@@ -144,7 +144,7 @@ function selectButtonAccessorie(e) {
      })
 
      if(accessories[indexAcc].selectBool){
-      fetch(`http://localhost:3001/selected`, {
+      fetch(`https://onllineshop.herokuapp.com/selected`, {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
@@ -154,7 +154,7 @@ function selectButtonAccessorie(e) {
           )
       })
      } else {
-      fetch(`http://localhost:3001/selected/${id}`, {
+      fetch(`https://onllineshop.herokuapp.com/selected/${id}`, {
           method: "Delete"
         })
      }

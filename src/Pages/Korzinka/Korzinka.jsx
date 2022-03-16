@@ -18,7 +18,7 @@ function Korzinka() {
     const { lang, setLang } = useContext(LangContext);
 
     useEffect(() => {
-        fetch('http://localhost:3001/korzinka').then(res => res.json()).then(data => setProducts(data))
+        fetch('https://onllineshop.herokuapp.com/korzinka').then(res => res.json()).then(data => setProducts(data))
       }, [testNumber]);
 
 
@@ -27,7 +27,7 @@ function Korzinka() {
        let id = e.target.id
        let index =  products.findIndex(item => item.id == id)
        products[index].number = products[index].number + 1
-       fetch(`http://localhost:3001/korzinka/${id}`, {
+       fetch(`https://onllineshop.herokuapp.com/korzinka/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -46,7 +46,7 @@ function Korzinka() {
         let index =  products.findIndex(item => item.id == id)
         if(products[index].number > 1){
             products[index].number = products[index].number - 1
-            fetch(`http://localhost:3001/korzinka/${id}`, {
+            fetch(`https://onllineshop.herokuapp.com/korzinka/${id}`, {
              method: "PUT",
              headers: {
                  "Content-Type": "application/json"
@@ -68,7 +68,7 @@ function Korzinka() {
     function deleteProduct(e){
 
         let iddelete = e.target.id
-        fetch(`http://localhost:3001/korzinka/${iddelete}`, {
+        fetch(`https://onllineshop.herokuapp.com/korzinka/${iddelete}`, {
             method: "Delete"
         })
         setTestNumber(Math.ceil(Math.random()*10000))

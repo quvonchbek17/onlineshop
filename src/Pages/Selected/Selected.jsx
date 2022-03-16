@@ -27,7 +27,7 @@ function Selected() {
     let likeIcon
 
     useEffect(() => {
-      fetch('http://localhost:3001/selected').then(res => res.json()).then(data => setSelectedProduct(data))
+      fetch('https://onllineshop.herokuapp.com/selected').then(res => res.json()).then(data => setSelectedProduct(data))
     }, [selectedIconBool]);
 
     function selectFunction(e){
@@ -36,7 +36,7 @@ function Selected() {
         let index = selectedProduct.findIndex(selec => selec.id == e.target.id)
         selectedProduct[index].selectBool = false
         setSelectedIconBool(Math.ceil(Math.random()*1000000))
-        fetch(`http://localhost:3001/selected/${id}`, {
+        fetch(`https://onllineshop.herokuapp.com/selected/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -47,7 +47,7 @@ function Selected() {
           })
 
         if(id <= 6){
-           fetch(`http://localhost:3001/phones/${id}`, {
+           fetch(`https://onllineshop.herokuapp.com/phones/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -57,7 +57,7 @@ function Selected() {
             })
           })
         } else if(id <= 10){
-            fetch(`http://localhost:3001/notebooks/${id}`, {
+            fetch(`https://onllineshop.herokuapp.com/notebooks/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -68,7 +68,7 @@ function Selected() {
               })
         } else {
 
-            fetch(`http://localhost:3001/accessories/${id}`, {
+            fetch(`https://onllineshop.herokuapp.com/accessories/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -81,7 +81,7 @@ function Selected() {
         }
 
         if(!selectedProduct[index].selectBool && selectedProduct.length > 0){
-            fetch(`http://localhost:3001/selected/${id}`, {
+            fetch(`https://onllineshop.herokuapp.com/selected/${id}`, {
                 method: "Delete"
             })
         }

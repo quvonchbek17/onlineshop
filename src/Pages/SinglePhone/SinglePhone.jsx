@@ -19,7 +19,7 @@ function SinglePhone() {
   const {Ordering, setOrdering} = useContext(OrderingContext)
 
   useEffect(() => {
-    fetch("http://localhost:3001/phones")
+    fetch("https://onllineshop.herokuapp.com/phones")
       .then((res) => res.json())
       .then((data) => setPhones(data));
   }, [phoneId]);
@@ -29,7 +29,7 @@ function SinglePhone() {
   function addKorzina(e){
     e.preventDefault()
 
-    fetch(`http://localhost:3001/korzinka`, {
+    fetch(`https://onllineshop.herokuapp.com/korzinka`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

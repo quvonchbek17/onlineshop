@@ -281,58 +281,7 @@
       ]
     }
   ],
-  "korzinka": [
-    {
-      "id": 1,
-      "name": "Vivo Y33s",
-      "memory": 64,
-      "ram": 4,
-      "operationSystem": "Android 11",
-      "processor": "MediaTek Helio G80",
-      "processorYadro": 8,
-      "network": "GSM, 3G, 4G LTE",
-      "battery": 5000,
-      "camera": 50,
-      "display": "IPS LCD",
-      "raiting": 4.3,
-      "number": 1,
-      "selectBool": true,
-      "price": 2770990,
-      "imgLinks": [
-        "https://сота.укр/image/cache/data/Vivo/vivo-y33s-blue-01-700x700.webp",
-        "https://all-ok.com.ua/image/cache/catalog/products/2021/12/160210/vivo-y33s-8-128gb-mirror-black-700x700-product_popup.jpg",
-        "https://ru.vivo.com/upload/imgresize/31214/442x455/20550.jpg",
-        "https://ru.vivo.com/upload/imgresize/15147/442x455/12530.jpg",
-        "https://items.s1.citilink.ru/1680445_v03_b.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-ALwDZN6CiERtICVheDYexpqHu-6EAJhSw&usqp=CAU"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Samsung Galaxy A72",
-      "memory": 128,
-      "ram": 8,
-      "operationSystem": "Android 11",
-      "processor": "Qualcomm SM7125 Snapdragon 720G",
-      "processorYadro": 8,
-      "network": "GSM, 3G, 4G LTE, 5G",
-      "battery": 5000,
-      "camera": 32,
-      "display": "IPS LCD",
-      "raiting": 4.7,
-      "number": 1,
-      "selectBool": false,
-      "price": 4380200,
-      "imgLinks": [
-        "https://www.creditasia.uz/upload/iblock/952/smartfon-samsung-galaxy-a72-sm-a725f-ds-128gb-white.jpeg",
-        "https://m.openshop.uz/public/uploads/products/photos/202104/od93iXqJDzQV3XaEizjgsGos4OsUpxREQZcEYtz4.jpg",
-        "https://images.samsung.com/is/image/samsung/p6pim/pk/galaxy-a52/feature/pk-feature---397300315?$FB_TYPE_A_MO_JPG$",
-        "https://img.youtube.com/vi/v1wHCpoLcdU/sddefault.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30--8YOAB8a0H_l9mkGRUbjt6lSvGnOTCrw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AqNja1GbwfeYAnlmMFKCSgVlY8VjEvfCYA&usqp=CAU"
-      ]
-    }
-  ],
+  "korzinka": [],
   "selected": [],
   "ordered": [
     {
